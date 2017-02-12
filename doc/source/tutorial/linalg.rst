@@ -40,7 +40,7 @@ and ``numpy.ndarray`` here.
 
 ``numpy.matrix`` is matrix class that has a more convenient interface
 than ``numpy.ndarray`` for matrix operations. This class supports for
-example MATLAB-like creation syntax via the, has matrix multiplication
+example MATLAB-like creation syntax via the ``numpy.mat`` function, has matrix multiplication
 as default for the ``*`` operator, and contains ``I`` and ``T`` members
 that serve as shortcuts for inverse and transpose:
 
